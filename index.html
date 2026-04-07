@@ -60,6 +60,15 @@ header .bio {
 
 header .bio + .bio { margin-top: 10px; }
 
+header .bio a {
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  transition: border-color .15s;
+}
+
+header .bio a:hover { border-color: var(--fg); }
+
 .contact-row {
   display: flex;
   gap: 24px;
@@ -144,7 +153,7 @@ footer {
       I focus on <strong>topological quantum matter</strong>,
       particularly Kitaev honeycomb spin liquids and Majorana-fermion band topology.
       I am a first-year Master's student at
-      <a href="https://www.khu.ac.kr" style="color:var(--fg);border-bottom:1px solid var(--rule);text-decoration:none;">Kyung Hee University</a>
+      <a href="https://www.khu.ac.kr">Kyung Hee University</a>
       (Department of Applied Physics, Global Campus),
       working in Prof.&nbsp;Kyusung Hwang's Topological Quantum Matter Theory Group.
     </p>
@@ -162,23 +171,11 @@ footer {
     <div class="label">Research</div>
     <a class="item" href="research.html">
       <div class="title">Interests</div>
-      <div class="desc">Kitaev spin liquids, Majorana fermions, topological invariants, mean-field &amp; many-body approaches.</div>
+      <div class="desc">Topological phases, Kitaev spin liquids, Majorana fermions, and beyond.</div>
     </a>
-    <a class="item" href="publications.html">
-      <div class="title">Publications</div>
-      <div class="desc">Papers and preprints.</div>
-    </a>
-    <a class="item" href="slides.html">
-      <div class="title">Slides</div>
-      <div class="desc">Conference talks, seminar slides, and posters.</div>
-    </a>
-  </section>
-
-  <section>
-    <div class="label">Academic</div>
-    <a class="item" href="background.html">
-      <div class="title">Background</div>
-      <div class="desc">Education, teaching, and conferences.</div>
+    <a class="item" href="papers.html">
+      <div class="title">Papers &amp; Slides</div>
+      <div class="desc">Publications, preprints, talks, and posters.</div>
     </a>
     <a class="item" href="notes.html">
       <div class="title">Notes</div>
@@ -187,7 +184,11 @@ footer {
   </section>
 
   <section>
-    <div class="label">Personal</div>
+    <div class="label">About</div>
+    <a class="item" href="background.html">
+      <div class="title">Background</div>
+      <div class="desc">Education, teaching, and conferences.</div>
+    </a>
     <a class="item" href="beyond.html">
       <div class="title">Beyond work</div>
       <div class="desc">Everything else.</div>

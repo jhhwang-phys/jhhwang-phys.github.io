@@ -4,21 +4,38 @@
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:var(--font);background:var(--bg);color:var(--fg);font-weight:300;line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
 main{max-width:var(--max-w);margin:0 auto;padding:88px 32px 64px}
-h1{font-size:1.5rem;font-weight:700;margin-bottom:8px}
+h1{font-size:1.5rem;font-weight:700;margin-bottom:6px}
+h2{font-size:1.1rem;font-weight:600;margin:36px 0 12px}
 .sub{font-size:.9rem;color:var(--muted);margin-bottom:32px}
-.back{font-size:.88rem;font-family:var(--mono);color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule);display:inline-block;margin-bottom:40px;transition:border-color .15s}
+.section-label{font-size:.72rem;font-family:var(--mono);font-weight:500;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--rule);margin-top:40px}
+.back{font-size:.88rem;font-family:var(--mono);color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule);display:inline-block;transition:border-color .15s}
 .back:hover{border-color:var(--fg);color:var(--fg)}
-p,li{font-size:1rem;color:#333;margin-bottom:12px}
-ul{padding-left:20px;margin-bottom:16px}
+p,li{font-size:1rem;color:#333;margin-bottom:10px}
+ul{padding-left:20px;margin-bottom:16px;list-style:disc}
+a{color:var(--fg);transition:border-color .15s}
+.keyword{display:inline-block;font-size:.88rem;padding:5px 14px;border:1px solid var(--rule);border-radius:20px;margin:4px 6px 4px 0;text-decoration:none;color:var(--muted);transition:background .12s,color .12s}
+.keyword:hover{background:var(--fg);color:#fff;border-color:var(--fg)}
 footer{max-width:var(--max-w);margin:0 auto;padding:40px 32px 48px;font-size:.76rem;font-family:var(--mono);color:var(--muted);font-weight:300}
 </style></head><body>
 <main>
 <h1>Background</h1>
 <div class="sub">Education, teaching, and conferences.</div>
-<p><strong>M.S. in Applied Physics</strong> (2025–present)<br>Kyung Hee University, Global Campus<br>Advisor: Prof. Kyusung Hwang · Topological Quantum Matter Theory Group</p>
-<p><strong>Teaching</strong><br>Teaching assistant — Modern Physics Laboratory (2025–)</p>
-<p><em>This page will be updated.</em></p>
-<div style="margin-top:48px"><a class="back" href="index.html">← Back to Home</a></div>
+
+<div class="section-label">Education</div>
+<p><strong>Kyung Hee University (Global Campus)</strong></p>
+<ul>
+<li>M.S. in Applied Physics (2025 – present)<br>Advisor: Prof. Kyusung Hwang · Topological Quantum Matter Theory Group</li>
+</ul>
+
+<div class="section-label">Teaching</div>
+<ul>
+<li>Teaching Assistant — Modern Physics Laboratory (2025 –)</li>
+</ul>
+
+<div class="section-label">Conferences</div>
+<p><em>Coming soon.</em></p>
+
+<div style="margin-top:56px"><a class="back" href="index.html">← Back to Home</a></div>
 </main>
 <footer>&copy; 2025 Jeonghwan Hwang</footer>
 </body></html>

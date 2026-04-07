@@ -4,21 +4,43 @@
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:var(--font);background:var(--bg);color:var(--fg);font-weight:300;line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
 main{max-width:var(--max-w);margin:0 auto;padding:88px 32px 64px}
-h1{font-size:1.5rem;font-weight:700;margin-bottom:8px}
+h1{font-size:1.5rem;font-weight:700;margin-bottom:6px}
+h2{font-size:1.1rem;font-weight:600;margin:36px 0 12px}
 .sub{font-size:.9rem;color:var(--muted);margin-bottom:32px}
-.back{font-size:.88rem;font-family:var(--mono);color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule);display:inline-block;margin-bottom:40px;transition:border-color .15s}
+.section-label{font-size:.72rem;font-family:var(--mono);font-weight:500;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--rule);margin-top:40px}
+.back{font-size:.88rem;font-family:var(--mono);color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule);display:inline-block;transition:border-color .15s}
 .back:hover{border-color:var(--fg);color:var(--fg)}
-p,li{font-size:1rem;color:#333;margin-bottom:12px}
-ul{padding-left:20px;margin-bottom:16px}
+p,li{font-size:1rem;color:#333;margin-bottom:10px}
+ul{padding-left:20px;margin-bottom:16px;list-style:disc}
+a{color:var(--fg);transition:border-color .15s}
+.keyword{display:inline-block;font-size:.88rem;padding:5px 14px;border:1px solid var(--rule);border-radius:20px;margin:4px 6px 4px 0;text-decoration:none;color:var(--muted);transition:background .12s,color .12s}
+.keyword:hover{background:var(--fg);color:#fff;border-color:var(--fg)}
 footer{max-width:var(--max-w);margin:0 auto;padding:40px 32px 48px;font-size:.76rem;font-family:var(--mono);color:var(--muted);font-weight:300}
 </style></head><body>
 <main>
 <h1>Research Interests</h1>
 <div class="sub">What I'm currently working on.</div>
-<p>My research focuses on topological quantum matter, with an emphasis on the Kitaev honeycomb spin liquid model. I study how inter-bond Majorana interactions beyond nearest-neighbor hopping affect the bulk topology and edge physics of these systems.</p>
-<p>Key topics include mean-field decoupling and self-consistent determination of order parameters, Chern number and Berry curvature diagnostics, and edge-mode analysis via strip geometry and localization measures such as IPR.</p>
-<p><em>This page will be updated as my research progresses.</em></p>
-<div style="margin-top:48px"><a class="back" href="index.html">← Back to Home</a></div>
+
+<div class="section-label">Academic Profile</div>
+<p><strong>M.S. Student @ Topological Quantum Matter Theory Group, KHU</strong></p>
+<ul>
+<li>Studying topological phases in Kitaev honeycomb spin liquids under Prof. Kyusung Hwang.</li>
+<li>Investigating inter-bond Majorana interactions and their effects on bulk topology and edge physics.</li>
+<li>Using mean-field self-consistent methods, Chern number diagnostics, and edge-mode analysis.</li>
+</ul>
+
+<div class="section-label">Keywords</div>
+<div style="margin-top:12px">
+<a class="keyword" href="https://en.wikipedia.org/wiki/Kitaev_spin_liquid">Kitaev Spin Liquid</a>
+<a class="keyword" href="https://en.wikipedia.org/wiki/Majorana_fermion">Majorana Fermion</a>
+<a class="keyword" href="https://en.wikipedia.org/wiki/Topological_order">Topological Order</a>
+<a class="keyword" href="https://en.wikipedia.org/wiki/Chern_class">Chern Number</a>
+<a class="keyword" href="https://en.wikipedia.org/wiki/Berry_phase">Berry Phase</a>
+<a class="keyword" href="https://en.wikipedia.org/wiki/Mean-field_theory">Mean-Field Theory</a>
+<a class="keyword" href="https://en.wikipedia.org/wiki/Topological_phase_transition">Topological Phase Transition</a>
+</div>
+
+<div style="margin-top:56px"><a class="back" href="index.html">← Back to Home</a></div>
 </main>
 <footer>&copy; 2025 Jeonghwan Hwang</footer>
 </body></html>
