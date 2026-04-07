@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeonghwan Hwang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #111;
+  --muted: #777;
+  --rule: #e2e2e2;
+  --hover-bg: #f7f7f7;
+  --max-w: 640px;
+  --font: 'DM Sans', -apple-system, sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--fg);
+  font-weight: 300;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 96px 28px 64px;
+}
+
+header { margin-bottom: 56px; }
+
+header h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: -.01em;
+  margin-bottom: 2px;
+}
+
+header .affiliation {
+  font-size: .85rem;
+  color: var(--muted);
+  font-weight: 300;
+  margin-bottom: 28px;
+}
+
+header .bio {
+  font-size: .93rem;
+  color: #333;
+  max-width: 520px;
+}
+
+header .bio + .bio { margin-top: 10px; }
+
+.contact-row {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  font-size: .82rem;
+  font-family: var(--mono);
+  font-weight: 300;
+}
+
+.contact-row a {
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  transition: border-color .15s;
+}
+
+.contact-row a:hover { border-color: var(--fg); }
+
+section { margin-bottom: 48px; }
+
+section .label {
+  font-size: .7rem;
+  font-family: var(--mono);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.item {
+  display: block;
+  text-decoration: none;
+  color: var(--fg);
+  padding: 14px 16px;
+  margin: 0 -16px;
+  border-radius: 6px;
+  transition: background .12s;
+}
+
+.item:hover { background: var(--hover-bg); }
+
+.item .title {
+  font-size: .95rem;
+  font-weight: 400;
+}
+
+.item .desc {
+  font-size: .82rem;
+  color: var(--muted);
+  font-weight: 300;
+  margin-top: 2px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 0 0 48px;
+}
+
+footer {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 28px 48px;
+  font-size: .72rem;
+  font-family: var(--mono);
+  color: var(--muted);
+  font-weight: 300;
+}
+
+@media (max-width: 520px) {
+  main { padding-top: 56px; }
+  header h1 { font-size: 1.25rem; }
+  .contact-row { gap: 16px; }
+}
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <h1>Jeonghwan Hwang</h1>
+    <div class="affiliation">M.S. Student · Applied Physics, Kyung Hee University</div>
+    <p class="bio">
+      I work on topological quantum matter — specifically Kitaev honeycomb spin liquids,
+      Majorana-fermion band topology, and topological phase transitions —
+      in Prof.&nbsp;Kyusung Hwang's group.
+    </p>
+    <div class="contact-row">
+      <a href="mailto:your-email@khu.ac.kr">email</a>
+      <a href="#">cv</a>
+      <a href="#">github</a>
+    </div>
+  </header>
+
+  <hr class="divider">
+
+  <section>
+    <div class="label">Research</div>
+    <a class="item" href="research.html">
+      <div class="title">Interests</div>
+      <div class="desc">Kitaev spin liquids, Majorana fermions, topological invariants, mean-field &amp; many-body approaches.</div>
+    </a>
+    <a class="item" href="publications.html">
+      <div class="title">Publications</div>
+      <div class="desc">Papers and preprints.</div>
+    </a>
+    <a class="item" href="presentations.html">
+      <div class="title">Presentations</div>
+      <div class="desc">Conference talks, seminar slides, and posters.</div>
+    </a>
+  </section>
+
+  <section>
+    <div class="label">Academic</div>
+    <a class="item" href="background.html">
+      <div class="title">Background</div>
+      <div class="desc">Education, teaching, and conferences.</div>
+    </a>
+    <a class="item" href="notes.html">
+      <div class="title">Notes</div>
+      <div class="desc">Reading memos and derivations.</div>
+    </a>
+  </section>
+
+  <section>
+    <div class="label">Etc.</div>
+    <a class="item" href="beyond.html">
+      <div class="title">Beyond work</div>
+      <div class="desc">Everything else.</div>
+    </a>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Jeonghwan Hwang
+</footer>
+
+</body>
+</html>
