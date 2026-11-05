@@ -4,61 +4,36 @@
     {
       "id": "scanned-note-2026-02-09",
       "type": "note",
-      "title": "Scanned Notes (2026-02-09)",
-      "topic": "Uncategorized",
-      "summary": "Scanned notes. Content and subject to be confirmed.",
-      "tags": [
-        "Scanned notes"
-      ],
+      "title": "Scan2026-02-09_031837",
+      "year": 2026,
       "file": "files/notes/scanned-notes-2026-02-09.pdf"
     },
     {
       "id": "spontaneous-chirality-nematicity-kitaev",
       "type": "note",
       "title": "Spontaneous Chirality and Nematicity Driven by Majorana Interactions in a Kitaev Spin Liquid",
-      "topic": "Condensed Matter Physics",
-      "summary": "Document concerning chirality and nematicity driven by Majorana interactions in a Kitaev spin liquid.",
-      "tags": [
-        "Kitaev spin liquid",
-        "Majorana interactions",
-        "Chirality",
-        "Nematicity"
-      ],
+      "year": 2026,
       "file": "files/notes/spontaneous-chirality-nematicity-majorana-kitaev.pdf"
     },
     {
       "id": "three-bond-extension-revised",
       "type": "note",
-      "title": "Three Bond Extension (Revised)",
-      "topic": "Condensed Matter Physics",
-      "summary": "Revised document on a three-bond extension.",
-      "tags": [
-        "Three-bond extension"
-      ],
+      "title": "three bond extension(revised)",
+      "year": 2026,
       "file": "files/notes/three-bond-extension-revised.pdf"
     },
     {
       "id": "newtons-laws-and-motions",
       "type": "slide",
       "title": "Newton's Laws and Motions",
-      "topic": "Classical Mechanics",
-      "summary": "Presentation slides on Newton's laws of motion.",
-      "tags": [
-        "Newton's laws",
-        "Mechanics"
-      ],
+      "year": 2024,
       "file": "files/slides/newtons-laws-and-motions.pdf"
     },
     {
       "id": "topological-quantum-matter-group",
       "type": "slide",
       "title": "위상양자물질 이론연구실 (황정환)",
-      "topic": "Condensed Matter Physics",
-      "summary": "Slides introducing the topological quantum matter theory research group.",
-      "tags": [
-        "Research group",
-        "Topological quantum matter"
-      ],
+      "year": 2026,
       "file": "files/slides/topological-quantum-matter-theory-group.pdf"
     }
   ]
