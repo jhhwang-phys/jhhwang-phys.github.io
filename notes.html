@@ -1,29 +1,34 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Notes — Jeonghwan Hwang</title><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#fff;--fg:#111;--muted:#777;--rule:#d0d0d0;--max-w:800px;--font:"DM Sans",-apple-system,sans-serif;--mono:"DM Mono",monospace}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:var(--font);background:var(--bg);color:var(--fg);font-weight:300;line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
-main{max-width:var(--max-w);margin:0 auto;padding:88px 32px 64px}
-h1{font-size:1.5rem;font-weight:700;margin-bottom:6px}
-h2{font-size:1.1rem;font-weight:600;margin:36px 0 12px}
-.sub{font-size:.9rem;color:var(--muted);margin-bottom:32px}
-.section-label{font-size:.72rem;font-family:var(--mono);font-weight:500;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--rule);margin-top:40px}
-.back{font-size:.88rem;font-family:var(--mono);color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule);display:inline-block;transition:border-color .15s}
-.back:hover{border-color:var(--fg);color:var(--fg)}
-p,li{font-size:1rem;color:#333;margin-bottom:10px}
-ul{padding-left:20px;margin-bottom:16px;list-style:disc}
-a{color:var(--fg);transition:border-color .15s}
-.keyword{display:inline-block;font-size:.88rem;padding:5px 14px;border:1px solid var(--rule);border-radius:20px;margin:4px 6px 4px 0;text-decoration:none;color:var(--muted);transition:background .12s,color .12s}
-.keyword:hover{background:var(--fg);color:#fff;border-color:var(--fg)}
-footer{max-width:var(--max-w);margin:0 auto;padding:40px 32px 48px;font-size:.76rem;font-family:var(--mono);color:var(--muted);font-weight:300}
-</style></head><body>
-<main>
-<h1>Notes</h1>
-<div class="sub">Reading memos and derivations.</div>
-
-<p><em>Coming soon.</em></p>
-
-<div style="margin-top:56px"><a class="back" href="index.html">← Back to Home</a></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Personal study and research notes by Jeonghwan Hwang, organized by topic.">
+  <title>Notes — Jeonghwan Hwang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="assets/archive.css" rel="stylesheet">
+  <script src="assets/archive.js" defer></script>
+</head>
+<body>
+<main data-library="notes">
+  <nav class="navline" aria-label="Site navigation">
+    <a href="index.html">Home</a>
+    <a href="notes.html" aria-current="page">Notes</a>
+    <a href="papers.html">Papers &amp; Slides</a>
+  </nav>
+  <h1 class="page-title">Notes</h1>
+  <p class="intro">Study notes, reading memos, calculations, and derivations.</p>
+  <div class="overview"><span class="section-eyebrow">Research library / Notes</span><span class="stat" id="library-total">Loading</span></div>
+  <div class="controls" role="search">
+    <label><span class="sr-only" style="position:absolute;left:-10000px">Search notes</span><input id="library-search" type="search" placeholder="Search titles, topics, and tags" autocomplete="off"></label>
+    <label><span class="sr-only" style="position:absolute;left:-10000px">Topic</span><select id="library-topic"><option value="">All topics</option></select></label>
+  </div>
+  <div class="filter-row" id="library-filters" aria-label="Document types"></div>
+  <p class="result-meta" id="library-status" role="status" aria-live="polite">Loading items</p>
+  <ul class="result-list" id="library-results"></ul>
+  <p class="small-note">These are personal learning notes, not peer-reviewed publications. Content may be revised.</p>
 </main>
-<footer>&copy; 2025 Jeonghwan Hwang</footer>
-</body></html>
+<footer>&copy; <span id="year">2026</span> Jeonghwan Hwang · <a href="index.html">Back to Home</a></footer>
+</body>
+</html>
